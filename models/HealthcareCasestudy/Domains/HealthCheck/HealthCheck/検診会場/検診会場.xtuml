@@ -1,0 +1,182 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	'検診会場',
+	5,
+	'HC_MPLC',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO O_BATTR
+	VALUES ("d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO O_ATTR
+	VALUES ("d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	"00000000-0000-0000-0000-000000000000",
+	'MPLCID',
+	'',
+	'',
+	'MPLCID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("b9c61f06-28a9-45bd-860e-e65c350364db",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO O_BATTR
+	VALUES ("b9c61f06-28a9-45bd-860e-e65c350364db",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO O_ATTR
+	VALUES ("b9c61f06-28a9-45bd-860e-e65c350364db",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	"d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	'会場名',
+	'',
+	'',
+	'会場名',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("3bd9cc6d-b1f3-4e82-91c9-fd29a923ed02",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO O_BATTR
+	VALUES ("3bd9cc6d-b1f3-4e82-91c9-fd29a923ed02",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO O_ATTR
+	VALUES ("3bd9cc6d-b1f3-4e82-91c9-fd29a923ed02",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	"b9c61f06-28a9-45bd-860e-e65c350364db",
+	'所在地',
+	'',
+	'',
+	'所在地',
+	0,
+	"2decc3a4-f8a7-4e61-8ab8-60231aa03c7d",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("2decc3a4-f8a7-4e61-8ab8-60231aa03c7d",
+	"00000000-0000-0000-0000-000000000000",
+	'住所',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("758f8bfa-ec72-4b85-970d-6451184de061",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO O_BATTR
+	VALUES ("758f8bfa-ec72-4b85-970d-6451184de061",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO O_ATTR
+	VALUES ("758f8bfa-ec72-4b85-970d-6451184de061",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	"3bd9cc6d-b1f3-4e82-91c9-fd29a923ed02",
+	'責任者氏名',
+	'',
+	'',
+	'責任者氏名',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	0,
+	"c4751488-8c82-4462-b94d-ebb920a63861",
+	"be3a3335-d74b-4464-863c-5649431a1833",
+	"4e12e9b4-1f48-482b-a552-f857dfe68cc9",
+	"21d5fda6-66fa-49f9-8643-260ea2f07916",
+	"27c3113f-8497-4a29-8df6-3b7bec5916b0",
+	"eb41a7fb-c7ef-48d2-8cf8-b4bbe165d7c8",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'地方担当行政部局',
+	'LGDID',
+	'R3.''運営されている''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	"be3a3335-d74b-4464-863c-5649431a1833",
+	"4e12e9b4-1f48-482b-a552-f857dfe68cc9",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	0,
+	"be3a3335-d74b-4464-863c-5649431a1833",
+	"21d5fda6-66fa-49f9-8643-260ea2f07916",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("27c3113f-8497-4a29-8df6-3b7bec5916b0",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	"c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	1,
+	'LGDID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	'../地方担当行政部局/地方担当行政部局.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("27c3113f-8497-4a29-8df6-3b7bec5916b0",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	"758f8bfa-ec72-4b85-970d-6451184de061",
+	'LGDID',
+	'',
+	'',
+	'LGDID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO O_OIDA
+	VALUES ("d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	0,
+	'MPLCID');
+INSERT INTO O_OIDA
+	VALUES ("27c3113f-8497-4a29-8df6-3b7bec5916b0",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	0,
+	'LGDID');
+INSERT INTO O_ID
+	VALUES (1,
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO O_OIDA
+	VALUES ("b9c61f06-28a9-45bd-860e-e65c350364db",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	1,
+	'会場名');
+INSERT INTO O_OIDA
+	VALUES ("27c3113f-8497-4a29-8df6-3b7bec5916b0",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	1,
+	'LGDID');
+INSERT INTO O_ID
+	VALUES (2,
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9");
+INSERT INTO PE_PE
+	VALUES ("c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	1,
+	"89305301-8e33-46b3-9466-cc4bc9a317b4",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("89305301-8e33-46b3-9466-cc4bc9a317b4",
+	"00000000-0000-0000-0000-000000000000",
+	"ba26497e-a07b-4e30-9505-76cea0eed6bd",
+	'HealthCheck',
+	'',
+	0,
+	'../HealthCheck.xtuml');

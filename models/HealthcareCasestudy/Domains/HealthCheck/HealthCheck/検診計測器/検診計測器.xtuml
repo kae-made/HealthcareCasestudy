@@ -1,0 +1,182 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("59365580-bdca-4464-b679-e7e68a797549",
+	'検診計測器',
+	6,
+	'HC_MCD',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("1cb3a876-f6da-4f13-9214-7e894c8dfd0d",
+	"59365580-bdca-4464-b679-e7e68a797549");
+INSERT INTO O_BATTR
+	VALUES ("1cb3a876-f6da-4f13-9214-7e894c8dfd0d",
+	"59365580-bdca-4464-b679-e7e68a797549");
+INSERT INTO O_ATTR
+	VALUES ("1cb3a876-f6da-4f13-9214-7e894c8dfd0d",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"00000000-0000-0000-0000-000000000000",
+	'MCDID',
+	'',
+	'',
+	'MCDID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("3d1a8d9a-6cfa-42bb-befc-72afe67bdd05",
+	"59365580-bdca-4464-b679-e7e68a797549");
+INSERT INTO O_BATTR
+	VALUES ("3d1a8d9a-6cfa-42bb-befc-72afe67bdd05",
+	"59365580-bdca-4464-b679-e7e68a797549");
+INSERT INTO O_ATTR
+	VALUES ("3d1a8d9a-6cfa-42bb-befc-72afe67bdd05",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"1cb3a876-f6da-4f13-9214-7e894c8dfd0d",
+	'管理用シリアル番号',
+	'',
+	'',
+	'管理用シリアル番号',
+	0,
+	"fb54e14c-70c1-4cd7-a27b-f57f6cc883a4",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("fb54e14c-70c1-4cd7-a27b-f57f6cc883a4",
+	"00000000-0000-0000-0000-000000000000",
+	'機器管理番号',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_REF
+	VALUES ("59365580-bdca-4464-b679-e7e68a797549",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	0,
+	"d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"37778e4a-20f8-41dc-b920-3d3dcbf65e2a",
+	"b6a80a7b-a074-48d8-8e53-07bedf2cd568",
+	"3841e5af-7730-4605-a32b-9b00ac29dd69",
+	"6098aee4-4ab8-4b48-9919-dd534c52f86b",
+	"3681098f-c005-4b82-bca8-d243b06fb744",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'検診会場',
+	'MPLCID',
+	'R4.''に装備されている''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("59365580-bdca-4464-b679-e7e68a797549",
+	"37778e4a-20f8-41dc-b920-3d3dcbf65e2a",
+	"b6a80a7b-a074-48d8-8e53-07bedf2cd568",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	0,
+	"37778e4a-20f8-41dc-b920-3d3dcbf65e2a",
+	"3841e5af-7730-4605-a32b-9b00ac29dd69",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("6098aee4-4ab8-4b48-9919-dd534c52f86b",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	1,
+	'MPLCID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	'../検診会場/検診会場.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("6098aee4-4ab8-4b48-9919-dd534c52f86b",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"3d1a8d9a-6cfa-42bb-befc-72afe67bdd05",
+	'MPLCID',
+	'',
+	'',
+	'MPLCID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("59365580-bdca-4464-b679-e7e68a797549",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	0,
+	"27c3113f-8497-4a29-8df6-3b7bec5916b0",
+	"37778e4a-20f8-41dc-b920-3d3dcbf65e2a",
+	"b6a80a7b-a074-48d8-8e53-07bedf2cd568",
+	"3841e5af-7730-4605-a32b-9b00ac29dd69",
+	"9e843691-1ee1-4040-9701-b32acebbe2e7",
+	"349935ce-7257-4879-bd76-87369c7a311d",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'検診会場',
+	'LGDID',
+	'R4.''に装備されている''');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("27c3113f-8497-4a29-8df6-3b7bec5916b0",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	0,
+	"37778e4a-20f8-41dc-b920-3d3dcbf65e2a",
+	"3841e5af-7730-4605-a32b-9b00ac29dd69",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("9e843691-1ee1-4040-9701-b32acebbe2e7",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	1,
+	'LGDID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	'../地方担当行政部局/地方担当行政部局.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("9e843691-1ee1-4040-9701-b32acebbe2e7",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"6098aee4-4ab8-4b48-9919-dd534c52f86b",
+	'LGDID',
+	'',
+	'',
+	'LGDID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"59365580-bdca-4464-b679-e7e68a797549");
+INSERT INTO O_OIDA
+	VALUES ("1cb3a876-f6da-4f13-9214-7e894c8dfd0d",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	0,
+	'MCDID');
+INSERT INTO O_ID
+	VALUES (1,
+	"59365580-bdca-4464-b679-e7e68a797549");
+INSERT INTO O_OIDA
+	VALUES ("3d1a8d9a-6cfa-42bb-befc-72afe67bdd05",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	1,
+	'管理用シリアル番号');
+INSERT INTO O_ID
+	VALUES (2,
+	"59365580-bdca-4464-b679-e7e68a797549");
+INSERT INTO PE_PE
+	VALUES ("59365580-bdca-4464-b679-e7e68a797549",
+	1,
+	"89305301-8e33-46b3-9466-cc4bc9a317b4",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("89305301-8e33-46b3-9466-cc4bc9a317b4",
+	"00000000-0000-0000-0000-000000000000",
+	"ba26497e-a07b-4e30-9505-76cea0eed6bd",
+	'HealthCheck',
+	'',
+	0,
+	'../HealthCheck.xtuml');

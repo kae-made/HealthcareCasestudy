@@ -1,0 +1,246 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	'計測',
+	7,
+	'HC_MM',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("128e5f4d-b0cd-40b4-a88f-4515568a4f91",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd");
+INSERT INTO O_BATTR
+	VALUES ("128e5f4d-b0cd-40b4-a88f-4515568a4f91",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd");
+INSERT INTO O_ATTR
+	VALUES ("128e5f4d-b0cd-40b4-a88f-4515568a4f91",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"00000000-0000-0000-0000-000000000000",
+	'MM_ID',
+	'',
+	'',
+	'MM_ID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	0,
+	"f3a765e3-a005-4fb3-87c0-5e4e84c1f93f",
+	"5ebdba84-e646-4a5d-bac2-d237678f09d9",
+	"040fbc21-7c6f-4ff7-ae18-55ed36dd3f1b",
+	"effcdcfa-7ab5-4697-b216-53197bcd7d4a",
+	"177f8c6f-4fdc-4895-abd0-c89f5bb01017",
+	"18e1cd3c-57cd-4b69-9e6b-6adbdeddfe30",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'被検者',
+	'TargetID',
+	'R5.''計測対象だった''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"5ebdba84-e646-4a5d-bac2-d237678f09d9",
+	"040fbc21-7c6f-4ff7-ae18-55ed36dd3f1b",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("f3a765e3-a005-4fb3-87c0-5e4e84c1f93f",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	0,
+	"5ebdba84-e646-4a5d-bac2-d237678f09d9",
+	"effcdcfa-7ab5-4697-b216-53197bcd7d4a",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("177f8c6f-4fdc-4895-abd0-c89f5bb01017",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	1,
+	'TargetID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	'../対象者/対象者.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("177f8c6f-4fdc-4895-abd0-c89f5bb01017",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"128e5f4d-b0cd-40b4-a88f-4515568a4f91",
+	'被検者TargetID',
+	'',
+	'被検者',
+	'TargetID',
+	1,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	0,
+	"279f6e34-751c-4043-ba3e-a872f674c7ea",
+	"5ebdba84-e646-4a5d-bac2-d237678f09d9",
+	"040fbc21-7c6f-4ff7-ae18-55ed36dd3f1b",
+	"effcdcfa-7ab5-4697-b216-53197bcd7d4a",
+	"d5c35fc5-424a-4ca6-b7c3-8a6bb1b5a3d7",
+	"8b0b0a87-3366-40e5-81ef-58f7b8b22371",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'被検者',
+	'LGDID',
+	'R5.''計測対象だった''');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("279f6e34-751c-4043-ba3e-a872f674c7ea",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	0,
+	"5ebdba84-e646-4a5d-bac2-d237678f09d9",
+	"effcdcfa-7ab5-4697-b216-53197bcd7d4a",
+	'../HealthCheck.xtuml');
+INSERT INTO O_REF
+	VALUES ("4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	0,
+	"27c3113f-8497-4a29-8df6-3b7bec5916b0",
+	"8ada9e8d-faa2-48ca-8f8e-ce5528a8aedf",
+	"13e4329a-03b9-4ab7-96b8-cd6514071b80",
+	"1db060b1-aaac-4d39-8767-83ef9a508cf5",
+	"d5c35fc5-424a-4ca6-b7c3-8a6bb1b5a3d7",
+	"f980bed1-4482-4e07-91f8-ab36cf8ddaa0",
+	"8b0b0a87-3366-40e5-81ef-58f7b8b22371",
+	0,
+	'',
+	'検診会場',
+	'LGDID',
+	'R6.''で測った''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"8ada9e8d-faa2-48ca-8f8e-ce5528a8aedf",
+	"13e4329a-03b9-4ab7-96b8-cd6514071b80",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("27c3113f-8497-4a29-8df6-3b7bec5916b0",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	0,
+	"8ada9e8d-faa2-48ca-8f8e-ce5528a8aedf",
+	"1db060b1-aaac-4d39-8767-83ef9a508cf5",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("d5c35fc5-424a-4ca6-b7c3-8a6bb1b5a3d7",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	1,
+	'LGDID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	'../地方担当行政部局/地方担当行政部局.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("d5c35fc5-424a-4ca6-b7c3-8a6bb1b5a3d7",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"177f8c6f-4fdc-4895-abd0-c89f5bb01017",
+	'被検者LGDID',
+	'
+
+',
+	'被検者',
+	'LGDID',
+	1,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	0,
+	"d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"8ada9e8d-faa2-48ca-8f8e-ce5528a8aedf",
+	"13e4329a-03b9-4ab7-96b8-cd6514071b80",
+	"1db060b1-aaac-4d39-8767-83ef9a508cf5",
+	"2bde4d9f-a053-4f35-bb9a-a9797e3b9ba3",
+	"c1ccd1ff-b2a8-4984-b225-14c20c0b9fe8",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'検診会場',
+	'MPLCID',
+	'R6.''で測った''');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	0,
+	"8ada9e8d-faa2-48ca-8f8e-ce5528a8aedf",
+	"1db060b1-aaac-4d39-8767-83ef9a508cf5",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("2bde4d9f-a053-4f35-bb9a-a9797e3b9ba3",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	1,
+	'MPLCID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("d3576589-5980-4ad7-a1ac-ac0afef81b7c",
+	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
+	'../検診会場/検診会場.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("2bde4d9f-a053-4f35-bb9a-a9797e3b9ba3",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"d5c35fc5-424a-4ca6-b7c3-8a6bb1b5a3d7",
+	'会場MPLCID',
+	'',
+	'会場',
+	'MPLCID',
+	1,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("b367e6f8-846b-4244-8ce5-5aa0f9b671a8",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd");
+INSERT INTO O_BATTR
+	VALUES ("b367e6f8-846b-4244-8ce5-5aa0f9b671a8",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd");
+INSERT INTO O_ATTR
+	VALUES ("b367e6f8-846b-4244-8ce5-5aa0f9b671a8",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	"2bde4d9f-a053-4f35-bb9a-a9797e3b9ba3",
+	'計測日時',
+	'',
+	'',
+	'計測日時',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000010",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd");
+INSERT INTO O_OIDA
+	VALUES ("128e5f4d-b0cd-40b4-a88f-4515568a4f91",
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	0,
+	'MM_ID');
+INSERT INTO O_ID
+	VALUES (1,
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd");
+INSERT INTO O_ID
+	VALUES (2,
+	"4a258674-49ea-4bee-ac55-f38c35cc66bd");
+INSERT INTO PE_PE
+	VALUES ("4a258674-49ea-4bee-ac55-f38c35cc66bd",
+	1,
+	"89305301-8e33-46b3-9466-cc4bc9a317b4",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("89305301-8e33-46b3-9466-cc4bc9a317b4",
+	"00000000-0000-0000-0000-000000000000",
+	"ba26497e-a07b-4e30-9505-76cea0eed6bd",
+	'HealthCheck',
+	'',
+	0,
+	'../HealthCheck.xtuml');

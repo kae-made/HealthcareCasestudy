@@ -1,0 +1,189 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	'被検者',
+	2,
+	'HC_TGT',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_REF
+	VALUES ("2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	0,
+	"03b43f67-75a9-4f29-917e-389685c87979",
+	"933aa378-cc47-4c96-a1f6-0716bd7756fd",
+	"f3d4ca99-5076-43a7-a708-dc02dab45bd2",
+	"7c7ed34e-0f97-4eb2-9ad3-67981b8b3beb",
+	"f3a765e3-a005-4fb3-87c0-5e4e84c1f93f",
+	"d68a6e79-8ad9-4d83-af7a-9abdf04802c6",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'対象者',
+	'TargetID',
+	'R1');
+INSERT INTO R_RGO_PROXY
+	VALUES ("2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	"933aa378-cc47-4c96-a1f6-0716bd7756fd",
+	"f3d4ca99-5076-43a7-a708-dc02dab45bd2",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	0,
+	"933aa378-cc47-4c96-a1f6-0716bd7756fd",
+	"7c7ed34e-0f97-4eb2-9ad3-67981b8b3beb",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("f3a765e3-a005-4fb3-87c0-5e4e84c1f93f",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	"03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	1,
+	'TargetID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	'../対象者/対象者.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("f3a765e3-a005-4fb3-87c0-5e4e84c1f93f",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	"00000000-0000-0000-0000-000000000000",
+	'TargetID',
+	'',
+	'',
+	'TargetID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("aee2ff15-134d-47d6-9577-7e4b938ac3a1",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86");
+INSERT INTO O_BATTR
+	VALUES ("aee2ff15-134d-47d6-9577-7e4b938ac3a1",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86");
+INSERT INTO O_ATTR
+	VALUES ("aee2ff15-134d-47d6-9577-7e4b938ac3a1",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	"279f6e34-751c-4043-ba3e-a872f674c7ea",
+	'メールアドレス',
+	'',
+	'',
+	'メールアドレス',
+	0,
+	"4d38f2fc-cf45-46b4-89c2-ff6344edd8d1",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("4d38f2fc-cf45-46b4-89c2-ff6344edd8d1",
+	"00000000-0000-0000-0000-000000000000",
+	'メールアドレス',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("0d8b2883-ba48-4df4-b725-4725c96f87ae",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86");
+INSERT INTO O_BATTR
+	VALUES ("0d8b2883-ba48-4df4-b725-4725c96f87ae",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86");
+INSERT INTO O_ATTR
+	VALUES ("0d8b2883-ba48-4df4-b725-4725c96f87ae",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	"aee2ff15-134d-47d6-9577-7e4b938ac3a1",
+	'健康状態',
+	'',
+	'',
+	'健康状態',
+	0,
+	"01178fbb-7db0-4911-a31a-b12c0a52d1e8",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("01178fbb-7db0-4911-a31a-b12c0a52d1e8",
+	"00000000-0000-0000-0000-000000000000",
+	'HealthLevel',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_REF
+	VALUES ("2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	0,
+	"23477b46-f085-4345-9d49-4f7ef26ec94b",
+	"933aa378-cc47-4c96-a1f6-0716bd7756fd",
+	"f3d4ca99-5076-43a7-a708-dc02dab45bd2",
+	"7c7ed34e-0f97-4eb2-9ad3-67981b8b3beb",
+	"279f6e34-751c-4043-ba3e-a872f674c7ea",
+	"9c5db0e6-c427-4777-8cf3-36c99115f101",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'対象者',
+	'LGDID',
+	'R1');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("23477b46-f085-4345-9d49-4f7ef26ec94b",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	0,
+	"933aa378-cc47-4c96-a1f6-0716bd7756fd",
+	"7c7ed34e-0f97-4eb2-9ad3-67981b8b3beb",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("279f6e34-751c-4043-ba3e-a872f674c7ea",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	"c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	1,
+	'LGDID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	'../地方担当行政部局/地方担当行政部局.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("279f6e34-751c-4043-ba3e-a872f674c7ea",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	"f3a765e3-a005-4fb3-87c0-5e4e84c1f93f",
+	'LGDID',
+	'',
+	'',
+	'LGDID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86");
+INSERT INTO O_OIDA
+	VALUES ("f3a765e3-a005-4fb3-87c0-5e4e84c1f93f",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	0,
+	'TargetID');
+INSERT INTO O_OIDA
+	VALUES ("279f6e34-751c-4043-ba3e-a872f674c7ea",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	0,
+	'LGDID');
+INSERT INTO O_ID
+	VALUES (1,
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86");
+INSERT INTO O_ID
+	VALUES (2,
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86");
+INSERT INTO PE_PE
+	VALUES ("2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	1,
+	"89305301-8e33-46b3-9466-cc4bc9a317b4",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("89305301-8e33-46b3-9466-cc4bc9a317b4",
+	"00000000-0000-0000-0000-000000000000",
+	"ba26497e-a07b-4e30-9505-76cea0eed6bd",
+	'HealthCheck',
+	'',
+	0,
+	'../HealthCheck.xtuml');

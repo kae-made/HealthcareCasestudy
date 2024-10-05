@@ -1,0 +1,263 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("a3907faf-f835-46f8-af92-97b63c1e8636",
+	'対象者',
+	1,
+	'HC_T',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_BATTR
+	VALUES ("03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_ATTR
+	VALUES ("03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	"00000000-0000-0000-0000-000000000000",
+	'TargetID',
+	'',
+	'',
+	'TargetID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("218b800c-ce21-4317-8652-53a8f9e41e28",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_BATTR
+	VALUES ("218b800c-ce21-4317-8652-53a8f9e41e28",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_ATTR
+	VALUES ("218b800c-ce21-4317-8652-53a8f9e41e28",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	"23477b46-f085-4345-9d49-4f7ef26ec94b",
+	'管理番号',
+	'',
+	'',
+	'管理番号',
+	0,
+	"7520bd9b-88b5-4af5-bc10-80266a7ef4b6",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("7520bd9b-88b5-4af5-bc10-80266a7ef4b6",
+	"00000000-0000-0000-0000-000000000000",
+	'検診対象者管理番号',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("7b680670-c203-4b44-90c7-a35cae23d2d3",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_BATTR
+	VALUES ("7b680670-c203-4b44-90c7-a35cae23d2d3",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_ATTR
+	VALUES ("7b680670-c203-4b44-90c7-a35cae23d2d3",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	"218b800c-ce21-4317-8652-53a8f9e41e28",
+	'氏名',
+	'',
+	'',
+	'氏名',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("e9f2ad7d-97a0-4fcc-8136-9dacbf38c4de",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_BATTR
+	VALUES ("e9f2ad7d-97a0-4fcc-8136-9dacbf38c4de",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_ATTR
+	VALUES ("e9f2ad7d-97a0-4fcc-8136-9dacbf38c4de",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	"7b680670-c203-4b44-90c7-a35cae23d2d3",
+	'住所',
+	'',
+	'',
+	'住所',
+	0,
+	"2decc3a4-f8a7-4e61-8ab8-60231aa03c7d",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("2decc3a4-f8a7-4e61-8ab8-60231aa03c7d",
+	"00000000-0000-0000-0000-000000000000",
+	'住所',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("c66da559-aca2-4fdc-a29a-10af67bd0e31",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_BATTR
+	VALUES ("c66da559-aca2-4fdc-a29a-10af67bd0e31",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_ATTR
+	VALUES ("c66da559-aca2-4fdc-a29a-10af67bd0e31",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	"e9f2ad7d-97a0-4fcc-8136-9dacbf38c4de",
+	'電話番号',
+	'',
+	'',
+	'電話番号',
+	0,
+	"a38d4cd7-8d40-4fcc-bf0b-9d7e802e7d82",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("a38d4cd7-8d40-4fcc-bf0b-9d7e802e7d82",
+	"00000000-0000-0000-0000-000000000000",
+	'電話番号',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("4c504a83-ad71-4fed-a886-ee43e2f682b7",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_BATTR
+	VALUES ("4c504a83-ad71-4fed-a886-ee43e2f682b7",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_ATTR
+	VALUES ("4c504a83-ad71-4fed-a886-ee43e2f682b7",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	"c66da559-aca2-4fdc-a29a-10af67bd0e31",
+	'生年月日',
+	'',
+	'',
+	'生年月日',
+	0,
+	"ba5eda7a-def5-0000-0000-00000000000e",
+	'',
+	'');
+INSERT INTO O_DBATTR
+	VALUES ("65c5b490-2be4-48cb-bcc9-d95a037319cd",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	'',
+	3,
+	0);
+INSERT INTO O_BATTR
+	VALUES ("65c5b490-2be4-48cb-bcc9-d95a037319cd",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_ATTR
+	VALUES ("65c5b490-2be4-48cb-bcc9-d95a037319cd",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	"4c504a83-ad71-4fed-a886-ee43e2f682b7",
+	'年齢',
+	'',
+	'',
+	'年齢',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("a3907faf-f835-46f8-af92-97b63c1e8636",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	0,
+	"c4751488-8c82-4462-b94d-ebb920a63861",
+	"ee5362c4-b0f7-4e78-8cf9-5556a26b9335",
+	"9e003a9c-392c-40ae-8d8b-be50ca3300c6",
+	"9c1facec-d5f2-4671-b296-fa32cd69ba91",
+	"23477b46-f085-4345-9d49-4f7ef26ec94b",
+	"fef93fa4-44f8-4d73-9a1b-4790ff3f1169",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'地方担当行政部局',
+	'LGDID',
+	'R2.''管轄にある''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("a3907faf-f835-46f8-af92-97b63c1e8636",
+	"ee5362c4-b0f7-4e78-8cf9-5556a26b9335",
+	"9e003a9c-392c-40ae-8d8b-be50ca3300c6",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	0,
+	"ee5362c4-b0f7-4e78-8cf9-5556a26b9335",
+	"9c1facec-d5f2-4671-b296-fa32cd69ba91",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("23477b46-f085-4345-9d49-4f7ef26ec94b",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	"c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	1,
+	'LGDID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	'../地方担当行政部局/地方担当行政部局.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("23477b46-f085-4345-9d49-4f7ef26ec94b",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	"03b43f67-75a9-4f29-917e-389685c87979",
+	'LGDID',
+	'',
+	'',
+	'LGDID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_OIDA
+	VALUES ("03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	0,
+	'TargetID');
+INSERT INTO O_OIDA
+	VALUES ("23477b46-f085-4345-9d49-4f7ef26ec94b",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	0,
+	'LGDID');
+INSERT INTO O_ID
+	VALUES (1,
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_OIDA
+	VALUES ("218b800c-ce21-4317-8652-53a8f9e41e28",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	1,
+	'管理番号');
+INSERT INTO O_ID
+	VALUES (2,
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_OIDA
+	VALUES ("7b680670-c203-4b44-90c7-a35cae23d2d3",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	2,
+	'氏名');
+INSERT INTO O_OIDA
+	VALUES ("e9f2ad7d-97a0-4fcc-8136-9dacbf38c4de",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	2,
+	'住所');
+INSERT INTO O_OIDA
+	VALUES ("c66da559-aca2-4fdc-a29a-10af67bd0e31",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	2,
+	'電話番号');
+INSERT INTO PE_PE
+	VALUES ("a3907faf-f835-46f8-af92-97b63c1e8636",
+	1,
+	"89305301-8e33-46b3-9466-cc4bc9a317b4",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("89305301-8e33-46b3-9466-cc4bc9a317b4",
+	"00000000-0000-0000-0000-000000000000",
+	"ba26497e-a07b-4e30-9505-76cea0eed6bd",
+	'HealthCheck',
+	'',
+	0,
+	'../HealthCheck.xtuml');
