@@ -46,7 +46,7 @@ INSERT INTO O_ATTR
 INSERT INTO S_DT_PROXY
 	VALUES ("7520bd9b-88b5-4af5-bc10-80266a7ef4b6",
 	"00000000-0000-0000-0000-000000000000",
-	'検診対象者管理番号',
+	'健診対象者管理番号',
 	'',
 	'',
 	'../../Datatypes/Datatypes.xtuml');
@@ -206,6 +206,24 @@ INSERT INTO O_ATTR
 	'LGDID',
 	0,
 	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("25826baa-bbee-4a45-b078-2bb1a1e636a1",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_BATTR
+	VALUES ("25826baa-bbee-4a45-b078-2bb1a1e636a1",
+	"a3907faf-f835-46f8-af92-97b63c1e8636");
+INSERT INTO O_ATTR
+	VALUES ("25826baa-bbee-4a45-b078-2bb1a1e636a1",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	"65c5b490-2be4-48cb-bcc9-d95a037319cd",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000006",
 	'',
 	'');
 INSERT INTO O_ID

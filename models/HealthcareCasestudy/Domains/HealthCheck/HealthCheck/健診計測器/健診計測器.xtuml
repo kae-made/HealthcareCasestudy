@@ -2,11 +2,24 @@
 
 INSERT INTO O_OBJ
 	VALUES ("59365580-bdca-4464-b679-e7e68a797549",
-	'検診計測器',
+	'健診計測器',
 	6,
 	'HC_MCD',
 	'',
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("dffd26a6-f0ab-40e0-89de-ff87efcfa7a4",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	'計測開始',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	1);
 INSERT INTO O_NBATTR
 	VALUES ("1cb3a876-f6da-4f13-9214-7e894c8dfd0d",
 	"59365580-bdca-4464-b679-e7e68a797549");
@@ -63,7 +76,7 @@ INSERT INTO O_REF
 	"00000000-0000-0000-0000-000000000000",
 	0,
 	'',
-	'検診会場',
+	'健診会場',
 	'MPLCID',
 	'R4.''に装備されている''');
 INSERT INTO R_RGO_PROXY
@@ -88,7 +101,7 @@ INSERT INTO O_RATTR
 INSERT INTO O_BATTR_PROXY
 	VALUES ("d3576589-5980-4ad7-a1ac-ac0afef81b7c",
 	"c3c5b29a-55ba-4c24-a387-166e98ff38d9",
-	'../検診会場/検診会場.xtuml');
+	'../健診会場/健診会場.xtuml');
 INSERT INTO O_ATTR
 	VALUES ("6098aee4-4ab8-4b48-9919-dd534c52f86b",
 	"59365580-bdca-4464-b679-e7e68a797549",
@@ -114,7 +127,7 @@ INSERT INTO O_REF
 	"00000000-0000-0000-0000-000000000000",
 	0,
 	'',
-	'検診会場',
+	'健診会場',
 	'LGDID',
 	'R4.''に装備されている''');
 INSERT INTO O_RTIDA_PROXY
@@ -139,6 +152,117 @@ INSERT INTO O_ATTR
 	VALUES ("9e843691-1ee1-4040-9701-b32acebbe2e7",
 	"59365580-bdca-4464-b679-e7e68a797549",
 	"6098aee4-4ab8-4b48-9919-dd534c52f86b",
+	'LGDID',
+	'',
+	'',
+	'LGDID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("01ee46c5-a622-4fa1-9634-3d1c76e5cb85",
+	"59365580-bdca-4464-b679-e7e68a797549");
+INSERT INTO O_BATTR
+	VALUES ("01ee46c5-a622-4fa1-9634-3d1c76e5cb85",
+	"59365580-bdca-4464-b679-e7e68a797549");
+INSERT INTO O_ATTR
+	VALUES ("01ee46c5-a622-4fa1-9634-3d1c76e5cb85",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"9e843691-1ee1-4040-9701-b32acebbe2e7",
+	'current_state',
+	'',
+	'',
+	'current_state',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000006",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("59365580-bdca-4464-b679-e7e68a797549",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	0,
+	"f3a765e3-a005-4fb3-87c0-5e4e84c1f93f",
+	"5b349e4b-3a5e-4b6f-a42f-4350348b0a84",
+	"ecd61c2c-c73a-405a-8b1b-7949506b5507",
+	"a402653d-40b4-4aef-8f73-5838ab74eecb",
+	"16d9f2f5-7069-43e7-938c-6bcdc958c3dd",
+	"d71e31ec-b0b8-4d3a-908a-c02393f91700",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'被検者',
+	'TargetID',
+	'R10.''計測対象とする''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("59365580-bdca-4464-b679-e7e68a797549",
+	"5b349e4b-3a5e-4b6f-a42f-4350348b0a84",
+	"ecd61c2c-c73a-405a-8b1b-7949506b5507",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("f3a765e3-a005-4fb3-87c0-5e4e84c1f93f",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	0,
+	"5b349e4b-3a5e-4b6f-a42f-4350348b0a84",
+	"a402653d-40b4-4aef-8f73-5838ab74eecb",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("16d9f2f5-7069-43e7-938c-6bcdc958c3dd",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	1,
+	'TargetID');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("03b43f67-75a9-4f29-917e-389685c87979",
+	"a3907faf-f835-46f8-af92-97b63c1e8636",
+	'../対象者/対象者.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("16d9f2f5-7069-43e7-938c-6bcdc958c3dd",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"01ee46c5-a622-4fa1-9634-3d1c76e5cb85",
+	'TargetID',
+	'',
+	'',
+	'TargetID',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("59365580-bdca-4464-b679-e7e68a797549",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	0,
+	"279f6e34-751c-4043-ba3e-a872f674c7ea",
+	"5b349e4b-3a5e-4b6f-a42f-4350348b0a84",
+	"ecd61c2c-c73a-405a-8b1b-7949506b5507",
+	"a402653d-40b4-4aef-8f73-5838ab74eecb",
+	"862d8de5-6eef-4ea4-855a-d9adb50e4244",
+	"251ac17b-c136-4769-8ab9-7b8a61c7f2d6",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'被検者',
+	'LGDID',
+	'R10.''計測対象とする''');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("279f6e34-751c-4043-ba3e-a872f674c7ea",
+	"2fc4b92f-5006-4de2-aa3e-02a1a18f8e86",
+	0,
+	"5b349e4b-3a5e-4b6f-a42f-4350348b0a84",
+	"a402653d-40b4-4aef-8f73-5838ab74eecb",
+	'../HealthCheck.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("862d8de5-6eef-4ea4-855a-d9adb50e4244",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"c4751488-8c82-4462-b94d-ebb920a63861",
+	"742ac229-2635-47a6-b211-961d7d31eeab",
+	1,
+	'LGDID');
+INSERT INTO O_ATTR
+	VALUES ("862d8de5-6eef-4ea4-855a-d9adb50e4244",
+	"59365580-bdca-4464-b679-e7e68a797549",
+	"16d9f2f5-7069-43e7-938c-6bcdc958c3dd",
 	'LGDID',
 	'',
 	'',

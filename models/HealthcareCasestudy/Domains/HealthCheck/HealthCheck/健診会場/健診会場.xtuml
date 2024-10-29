@@ -2,7 +2,7 @@
 
 INSERT INTO O_OBJ
 	VALUES ("c3c5b29a-55ba-4c24-a387-166e98ff38d9",
-	'検診会場',
+	'健診会場',
 	5,
 	'HC_MPLC',
 	'',

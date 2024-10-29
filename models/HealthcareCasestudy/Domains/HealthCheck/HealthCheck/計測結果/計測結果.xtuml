@@ -4,7 +4,7 @@ INSERT INTO O_OBJ
 	VALUES ("78741214-3cab-4524-884f-72ddb14f9903",
 	'計測結果',
 	8,
-	'計測結果',
+	'HC_MMR',
 	'',
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_REF
@@ -20,7 +20,7 @@ INSERT INTO O_REF
 	"00000000-0000-0000-0000-000000000000",
 	0,
 	'',
-	'検診計測器',
+	'健診計測器',
 	'MCDID',
 	'R7.''で測った''');
 INSERT INTO R_RGO_PROXY
@@ -45,7 +45,7 @@ INSERT INTO O_RATTR
 INSERT INTO O_BATTR_PROXY
 	VALUES ("1cb3a876-f6da-4f13-9214-7e894c8dfd0d",
 	"59365580-bdca-4464-b679-e7e68a797549",
-	'../検診計測器/検診計測器.xtuml');
+	'../健診計測器/健診計測器.xtuml');
 INSERT INTO O_ATTR
 	VALUES ("b327f7fa-d58b-48e7-85d4-36f5a45b7eaa",
 	"78741214-3cab-4524-884f-72ddb14f9903",
